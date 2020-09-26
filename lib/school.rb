@@ -7,7 +7,7 @@ class School
   end
 
   def new("Testing")
-    @new("Testing")
+    @new
   end
 
 def initalize(new)
