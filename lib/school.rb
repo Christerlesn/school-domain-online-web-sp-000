@@ -11,12 +11,12 @@ attr_accessor :name, :roster
     roster[level] ||= []
     roster[level] << student
   end
-  
-  def sort 
-    roster.sort_by do |x, y| 
-      x 
-    end 
-  end 
+
+  def sort
+    roster.sort_by do |x, y|
+      x
+    end
+  end
 
   def sort
     new_hash = {}
@@ -26,6 +26,6 @@ attr_accessor :name, :roster
     new_hash
     end
 
-  end 
+  end
 
 end
