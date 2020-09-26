@@ -9,7 +9,7 @@ class School
     @new
   end
 
-def initalize
+def initalize(new)
 @new = new
 end
 
