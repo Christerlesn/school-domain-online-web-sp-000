@@ -6,10 +6,11 @@ class School
     @roster = roster
   end
 
-binding.pry
+
 def initalize
 @roster = roster
 end
 
-
 end
+
+binding.pry
