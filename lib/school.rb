@@ -1,10 +1,15 @@
 require 'pry'
 class School
-attr_accessor :roster
+
+  def roster=(roster)
+    roster = {}
+    @roster = roster
+  end
 
 binding.pry
 def initalize
-@roster = {}
+@roster = roster
 end
+
 
 end
