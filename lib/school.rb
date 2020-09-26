@@ -6,6 +6,10 @@ class School
     @roster = roster
   end
 
+  def roster
+    @roster
+  end
+
 
 def initalize
 @roster = roster
