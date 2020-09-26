@@ -2,7 +2,7 @@ require 'pry'
 class School
 attr_accessor :new
 #attr_reader :roster
-def initalize(new)
+def initalize
 @new = new
 @roster = {}
 end
