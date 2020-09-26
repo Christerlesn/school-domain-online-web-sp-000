@@ -1,8 +1,16 @@
 class School
 
 def initalize
+@new = new 
+end
+
+def new=(roster)
   roster = {}
-  roster.length
+  @new = roster
+end
+
+def new
+  @new
 end
 
 # def roster=(roster)
