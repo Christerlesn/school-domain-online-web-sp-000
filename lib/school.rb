@@ -26,6 +26,4 @@ attr_accessor :name, :roster
     new_hash
     end
 
-  end
-
 end
