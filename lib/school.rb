@@ -13,15 +13,6 @@ def new
   @new
 end
 
-# def roster=(roster)
-#   roster = {}
-#   @roster = roster
-# end
-#
-# def roster
-#   @roster
-# end
-
 # def add_student=(student, )
 #
 # end
