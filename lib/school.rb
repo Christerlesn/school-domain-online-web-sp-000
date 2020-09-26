@@ -6,8 +6,8 @@ class School
     @new = roster
   end
 
-  def new
-    @new
+  def new("Testing")
+    @new("Testing")
   end
 
 def initalize(new)
