@@ -1,7 +1,7 @@
 class School
 
 def initalize
-@new = new 
+@new = new
 end
 
 def new=(roster)
