@@ -1,20 +1,10 @@
-require 'pry'
 class School
 
-  def roster=(roster)
-    roster = {}
-    @roster = roster
-  end
+  attr_accessor :name, :roster
 
-  def roster
-    @roster
-  end
-
-
-def initalize
-@roster = {}
-end
+    def initialize(name)
+      @name = name
+      @roster = {}
+    end
 
 end
-
-binding.pry
