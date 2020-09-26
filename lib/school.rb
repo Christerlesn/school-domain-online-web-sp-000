@@ -1,21 +1,10 @@
 require 'pry'
 class School
 
-  def new=(roster)
-    roster = {}
-    @new = roster
-  end
-
-  def new("Testing")
-    @new
-  end
-
 def initalize(new)
 @new = new
+@roster = {}
 end
-binding.pry
-# def add_student=(student, )
-#
-# end
+#binding.pry
 
 end
