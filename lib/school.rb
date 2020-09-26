@@ -12,7 +12,7 @@ class School
 
 
 def initalize
-@roster = roster
+@roster = {}
 end
 
 end
